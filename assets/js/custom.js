@@ -50,7 +50,7 @@ $(document).ready(function(){
 		
 			$("#new-cars-carousel").owlCarousel({
 				items: 1,
-				autoplay:true,
+				autoplay:false,
 				loop: true,
 				dots:true,
 				mouseDrag:true,

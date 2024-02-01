@@ -738,6 +738,18 @@ margin-bottom: 2rem !important;
     height: 75vh;
     margin-bottom: 0 !important;
 }
+.img-section-journal{
+    background: url(../images/nse/nse-1.jpg), top center;
+    background-color: #1a070786;
+    background-position: top;
+    background-size: cover;
+    object-fit: cover;
+    background-attachment: fixed;
+    background-blend-mode: soft-light;
+    height: 60vh;
+    margin-bottom: 0 !important;
+
+}
 .use-bg .shw-xl, .use-bg .shw-xl p{
     background-color: #fadca5;
     color: #50493b !important;
@@ -750,6 +762,10 @@ border: 2px double #666565;
 
 .use-color{
     color:#fadca5 !important;
+}
+.use-line{
+    text-decoration: underline;
+    color: #50493b;
 }
 .center-text{
     text-align: center !important;
@@ -766,6 +782,16 @@ border: 2px double #666565;
     position:relative;
      margin-top:-80px;
      z-index:1;
+    }
+    .z-index-journal{
+        position:relative;
+        margin-top:-90px;
+        z-index:1;
+   
+    }
+    .z-index-journal .single-service-item{
+        background-color: #fadca5 !important;
+        border-color: #000 !important;
     }
 
     /* 150px => 70px + container padding */
