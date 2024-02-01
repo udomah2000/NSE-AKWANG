@@ -793,6 +793,10 @@ border: 2px double #666565;
         background-color: #fadca5 !important;
         border-color: #000 !important;
     }
+    .btn-bg .welcome-btn, .btn-bg .welcome-btn a{
+        background-color: #50493b;
+        color: #fff;
+    }
 
     /* 150px => 70px + container padding */
 
