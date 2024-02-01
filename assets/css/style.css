@@ -705,6 +705,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #fadca5;}
 .g-padding{
     padding: 1.1rem 1.3rem;
 }
+.fff{
+    color: #fff !important; 
+}
 .pad{
     padding-top: 3rem !important;
 }
@@ -732,17 +735,39 @@ margin-bottom: 2rem !important;
     object-fit: cover;
     background-attachment: fixed;
     background-blend-mode: soft-light;
-    height: 50vh;
+    height: 75vh;
     margin-bottom: 0 !important;
-    /* z-index: 10 !important;
-    position: absolute !important;
-    bottom: 1px; */
-
-
-    
 }
-/* .z-in-1{
+.use-bg .shw-xl, .use-bg .shw-xl p{
+    background-color: #fadca5;
+    color: #615757 !important;
+    font-size: 18px;
+}
+.use-bg .shw-xl{
+height: 30vh;
+border: 2px double #666565;
+}
 
-} */
+.use-color{
+    color:#fadca5 !important;
+}
+.center-text{
+    text-align: center !important;
+}
+.Zindex{
+    /* display:block;  */
+    position:relative;
+     margin-top:-250px;
+     z-index:1;
+    }
+
+.index{
+    /* display:block;  */
+    position:relative;
+     margin-top:-80px;
+     z-index:1;
+    }
+
+    /* 150px => 70px + container padding */
 
 /*========================Thank you=================
