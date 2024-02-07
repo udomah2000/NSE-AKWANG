@@ -755,11 +755,47 @@ margin-bottom: 2rem !important;
     color: #50493b !important;
     font-size: 15px;
 }
+.ex .col-sm-6{
+    height: 30vh !important;
+}
 .use-bg .shw-xl{
 height: 30vh;
 border: 2px double #666565;
 }
+.journal-height .col-sm-6 .single-service-item{
+    height: 80vh !important;
+    margin-bottom: 3rem !important;
 
+}
+.conference-height .col-sm-6 .single-service-item{
+    height: 90vh !important;
+    margin-bottom: 4rem !important;
+
+}
+.book-height .col-sm-6 .single-service-item{
+    height: 90vh !important;
+    margin-bottom: 4rem !important;
+
+}
+.book-height .col-sm-6 .single-service-item p{
+    font-size: 15px !important;
+}
+
+
+@media screen and (max-width:700px) {
+    .conference-height .col-sm-6 .single-service-item{
+        height: 100% !important;
+        /* margin-bottom: 4rem !important; */
+    
+    }
+    
+}
+.text-dark{
+    color:  #000 !important;
+}
+.center-text{
+    text-align: center !important;
+}
 .use-color{
     color:#fadca5 !important;
 }
@@ -774,28 +810,30 @@ border: 2px double #666565;
     /* display:block;  */
     position:relative;
      margin-top:-250px;
-     z-index:1;
     }
 
-.index{
-    /* display:block;  */
-    position:relative;
-     margin-top:-80px;
-     z-index:1;
-    }
     .z-index-journal{
         position:relative;
         margin-top:-90px;
-        z-index:1;
    
     }
     .z-index-journal .single-service-item{
         background-color: #fadca5 !important;
         border-color: #000 !important;
+        border-radius: 11px;
     }
     .btn-bg .welcome-btn, .btn-bg .welcome-btn a{
         background-color: #50493b;
         color: #fff;
+    }
+
+
+
+    /* nav */
+    @media screen and (min-width:720px){
+        .navbar-nav li a{
+            font-size: 14px !important;
+        }
     }
 
     /* 150px => 70px + container padding */

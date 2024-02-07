@@ -1,21 +1,5 @@
 $(document).ready(function(){
 	"use strict";
-    
-        /*==================================
-* Author        : "ThemeSine"
-* Template Name : CarVilla HTML Template
-* Version       : 1.0
-==================================== */
-
-
-
-
-/*=========== TABLE OF CONTENTS ===========
-1. Scroll To Top
-2. welcome animation support
-3. owl carousel
-======================================*/
-
     // 1. Scroll To Top 
 		$(window).on('scroll',function () {
 			if ($(this).scrollTop() > 300) {
@@ -58,7 +42,7 @@ $(document).ready(function(){
 				smartSpeed:1000,
 				transitionStyle:"fade",
 				animateIn: 'fadeIn',
-				animateOut: 'fadeOutLeft'
+				// animateOut: 'fadeOutLeft',
 				// navText:["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"]
 			});
 
@@ -75,8 +59,8 @@ $(document).ready(function(){
 				autoplay:true,
 				smartSpeed:1000,
 				
-				//nav:false,
-				//navText:["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
+				// nav:false,
+				// navText:["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
 				
 				dots:false,
 				autoplayHoverPause:false,
@@ -188,6 +172,10 @@ displayFunction_2()
 
 
 
+
+
+
+
 // CAROUSEL TEXT HIDDEN
 const hiddenText_1 = () => {
 	let btn_1 = document.querySelector('.btn-1');
@@ -199,7 +187,8 @@ const hiddenText_1 = () => {
 			hiddenEle_1.classList.remove('text-hidden');
 			btn_1.innerHTML = 'Show Less'
 			allowHidden_1 = true;
-		} else {
+		} 
+		else {
 			hiddenEle_1.classList.add('text-hidden');
 			btn_1.innerHTML = 'Show More'
 			allowHidden_1 = false
@@ -252,3 +241,11 @@ const hiddenText_3 = () => {
 
 }
 hiddenText_3()
+
+
+
+
+
+
+// TIME
+document.querySelector('.time').innerHTML = new Date().getFullYear()
